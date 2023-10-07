@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313DC3022AD1A6F20021C508 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DC3012AD1A6F20021C508 /* ItemListView.swift */; };
+		313DC3042AD1A76C0021C508 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DC3032AD1A76C0021C508 /* ListData.swift */; };
+		313DC3062AD1AB840021C508 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DC3052AD1AB840021C508 /* ItemView.swift */; };
 		319346BF2ACF1F7C002A0C78 /* EvoTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 319346BE2ACF1F7C002A0C78 /* EvoTabView */; };
 		31F516282ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F516272ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift */; };
 		31F5162A2ACD7A2F00AD8613 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F516292ACD7A2F00AD8613 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		313DC3012AD1A6F20021C508 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		313DC3032AD1A76C0021C508 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		313DC3052AD1AB840021C508 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		31F516242ACD7A2F00AD8613 /* EvoTabViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvoTabViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F516272ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvoTabViewSampleApp.swift; sourceTree = "<group>"; };
 		31F516292ACD7A2F00AD8613 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,9 +64,12 @@
 		31F516262ACD7A2F00AD8613 /* EvoTabViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				313DC3032AD1A76C0021C508 /* ListData.swift */,
 				31F516422ACD7AC500AD8613 /* AppTabBarView.swift */,
 				31F516442ACD86A000AD8613 /* EvoTabItemExtension.swift */,
 				31F516272ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift */,
+				313DC3052AD1AB840021C508 /* ItemView.swift */,
+				313DC3012AD1A6F20021C508 /* ItemListView.swift */,
 				31F516292ACD7A2F00AD8613 /* ContentView.swift */,
 				31F5162B2ACD7A3000AD8613 /* Assets.xcassets */,
 				31F5162D2ACD7A3000AD8613 /* Preview Content */,
@@ -159,10 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313DC3022AD1A6F20021C508 /* ItemListView.swift in Sources */,
 				31F5162A2ACD7A2F00AD8613 /* ContentView.swift in Sources */,
 				31F516452ACD86A000AD8613 /* EvoTabItemExtension.swift in Sources */,
 				31F516282ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift in Sources */,
+				313DC3062AD1AB840021C508 /* ItemView.swift in Sources */,
 				31F516432ACD7AC500AD8613 /* AppTabBarView.swift in Sources */,
+				313DC3042AD1A76C0021C508 /* ListData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

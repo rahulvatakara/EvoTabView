@@ -9,21 +9,21 @@ import Foundation
 import EvoTabView
 
 extension EvoTabBarItem {
-    static var home: EvoTabBarItem {
-        EvoTabBarItem(imageName: "house")
+    static var books: EvoTabBarItem {
+        EvoTabBarItem(imageName: "book")
     }
     static var add: EvoTabBarItem {
         EvoTabBarItem(imageName: "plus",
                       actionButtonColor: .blue,
                       isAction: true)
     }
-    static var favorites: EvoTabBarItem {
-        EvoTabBarItem(imageName: "key")
+    static var movies: EvoTabBarItem {
+        EvoTabBarItem(imageName: "film")
     }
-    static var profile: EvoTabBarItem {
-        EvoTabBarItem(imageName: "person")
+    static var sports: EvoTabBarItem {
+        EvoTabBarItem(imageName: "figure.run.square.stack.fill")
     }
-    static var messages: EvoTabBarItem {
-        EvoTabBarItem(imageName: "lock.fill")
+    static var cities: EvoTabBarItem {
+        EvoTabBarItem(imageName: "location.circle")
     }
 }

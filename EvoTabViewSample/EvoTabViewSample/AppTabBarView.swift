@@ -15,7 +15,7 @@ import EvoTabView
 
 struct AppTabBarView: View {
     
-    @State private var tabSelection: EvoTabBarItem = EvoTabBarItem.messages
+    @State private var tabSelection: EvoTabBarItem = EvoTabBarItem.movies
     
     var body: some View {
         EvoTabView(selection: $tabSelection, backgroundGradient: [.black, Color(#colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1))],
@@ -25,20 +25,23 @@ struct AppTabBarView: View {
                 print("+")
             }
         }) {
-            TestTabView(text: "1")
-                    .tabBarItem(tab: .home, selection: $tabSelection)
-            
-            TestTabView(text: "2")
-                    .tabBarItem(tab: .messages, selection: $tabSelection)
+            ItemListView(title: "Books", Items: books)
+                .tabBarItem(tab: .books, selection: $tabSelection)
+        
+            ItemListView(title: "Cities", Items: cities)
+                    .tabBarItem(tab: .cities, selection: $tabSelection)
 
-            TestTabView(text: "3")
+            EmptyView()
                 .tabBarItem(tab: .add, selection: $tabSelection)
             
-            TestTabView(text: "4")
-                .tabBarItem(tab: .favorites, selection: $tabSelection)
+            ItemListView(title: "Sports", Items: sports)
+                .tabBarItem(tab: .sports, selection: $tabSelection)
             
-            TestTabView(text: "4")
-                .tabBarItem(tab: .profile, selection: $tabSelection)
+        
+    
+            ItemListView(title: "Movies", Items: movies)
+                    .tabBarItem(tab: .movies, selection: $tabSelection)
+            
         }
     }
 }
@@ -46,7 +49,7 @@ struct AppTabBarView: View {
 struct AppTabBarView_Previews: PreviewProvider {
     
     static var previews: some View {
-        AppTabBarView()
+        AppTabBarView().preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
