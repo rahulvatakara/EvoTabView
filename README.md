@@ -21,7 +21,8 @@ Replace the link above with the actual path to your image file if you're hosting
 
 Videos:
 EvoTabView Video Demo
-![EvoTabView GIF](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_video.gif)
+<img src="https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_video.gif" width="350">
+
 
 
 
