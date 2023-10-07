@@ -7,7 +7,25 @@ The aim is to offer a balanced blend of customization and native experience. By 
 
 Dive into this guide to integrate and harness the capabilities of EvoTabView for your SwiftUI projects.
 
+DEMO: Visual Representation
 
+To provide a clearer understanding of how EvoTabView looks and functions, here are visual demonstrations:
+
+Images:
+EvoTabView Image Demo
+![EvoTabView Image Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_1.png)
+![EvoTabView Image Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_2.png)
+![EvoTabView Image Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_3.png)
+
+
+Replace the link above with the actual path to your image file if you're hosting the image elsewhere.
+
+Videos:
+EvoTabView Video Demo
+![EvoTabView Video Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_video.mp4)
+
+
+Click the thumbnail above to view the video demonstration. Replace the thumbnail and video link with the actual paths if they are hosted elsewhere.
 ## Example:
 Here's an example of how to use EvoTabView:
 
