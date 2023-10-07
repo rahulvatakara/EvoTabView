@@ -14,7 +14,6 @@ extension EvoTabBarItem {
     }
     static var add: EvoTabBarItem {
         EvoTabBarItem(imageName: "plus",
-                      color: .white,
                       actionButtonColor: .blue,
                       isAction: true)
     }

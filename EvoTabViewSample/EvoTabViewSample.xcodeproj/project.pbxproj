@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		319346B42ACEC657002A0C78 /* EvoTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 319346B32ACEC657002A0C78 /* EvoTabView */; };
+		319346BF2ACF1F7C002A0C78 /* EvoTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 319346BE2ACF1F7C002A0C78 /* EvoTabView */; };
 		31F516282ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F516272ACD7A2F00AD8613 /* EvoTabViewSampleApp.swift */; };
 		31F5162A2ACD7A2F00AD8613 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F516292ACD7A2F00AD8613 /* ContentView.swift */; };
 		31F5162C2ACD7A3000AD8613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F5162B2ACD7A3000AD8613 /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319346B42ACEC657002A0C78 /* EvoTabView in Frameworks */,
+				319346BF2ACF1F7C002A0C78 /* EvoTabView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			);
 			name = EvoTabViewSample;
 			packageProductDependencies = (
-				319346B32ACEC657002A0C78 /* EvoTabView */,
+				319346BE2ACF1F7C002A0C78 /* EvoTabView */,
 			);
 			productName = EvoTabViewSample;
 			productReference = 31F516242ACD7A2F00AD8613 /* EvoTabViewSample.app */;
@@ -131,7 +131,7 @@
 			);
 			mainGroup = 31F5161B2ACD7A2F00AD8613;
 			packageReferences = (
-				319346B22ACEC657002A0C78 /* XCRemoteSwiftPackageReference "EvoTabView" */,
+				319346BD2ACF1F7C002A0C78 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 31F516252ACD7A2F00AD8613 /* Products */;
 			projectDirPath = "";
@@ -367,21 +367,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		319346B22ACEC657002A0C78 /* XCRemoteSwiftPackageReference "EvoTabView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rahulvatakara/EvoTabView.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		319346BD2ACF1F7C002A0C78 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		319346B32ACEC657002A0C78 /* EvoTabView */ = {
+		319346BE2ACF1F7C002A0C78 /* EvoTabView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 319346B22ACEC657002A0C78 /* XCRemoteSwiftPackageReference "EvoTabView" */;
 			productName = EvoTabView;
 		};
 /* End XCSwiftPackageProductDependency section */

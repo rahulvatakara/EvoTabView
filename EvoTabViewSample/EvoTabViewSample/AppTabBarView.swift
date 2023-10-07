@@ -18,7 +18,13 @@ struct AppTabBarView: View {
     @State private var tabSelection: EvoTabBarItem = EvoTabBarItem.messages
     
     var body: some View {
-        EvoTabView(selection: $tabSelection) {
+        EvoTabView(selection: $tabSelection, backgroundGradient: [.black, Color(#colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1))],
+                   onTapped: { tab in
+            if tab == .add {
+                // Plus button action
+                print("+")
+            }
+        }) {
             TestTabView(text: "1")
                     .tabBarItem(tab: .home, selection: $tabSelection)
             
@@ -51,14 +57,12 @@ struct TestTabView: View {
     
     init(text: String) {
         self.text = text
-        print("INIT" + text)
     }
     
     var body: some View {
         VStack {
             Text(text)
                 .onAppear {
-                    print("ONAPPEAR" + text)
             }
             TextField("Type something...", text: $textFieldText)
                 .disableAutocorrection(true)

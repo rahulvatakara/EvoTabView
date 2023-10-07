@@ -13,6 +13,10 @@ struct EvoTabContainerView: View {
     @Binding var selection: EvoTabBarItem
     @Namespace private var namespace
     @State var localSelection: EvoTabBarItem
+    var backgroundGradient: [Color] = []
+    var onTapped: ((_ tab: EvoTabBarItem) -> Void)?
+
+
     
     var body: some View {
         tabBarView
@@ -61,7 +65,7 @@ extension EvoTabContainerView {
         HStack {
             ForEach(tabs, id: \.self) { tab in
                 Button {
-                    switchToTab(tab: tab)
+                    switchToTabIfNeeded(tab: tab)
                 } label: {
                     tabView(tab: tab)
                 }
@@ -69,12 +73,15 @@ extension EvoTabContainerView {
         }
         .padding(6)
         .background(LinearGradient(gradient:
-                                    Gradient(colors: [.black, .black.opacity(0.8)]), startPoint: .top, endPoint: .bottom)
+                                    Gradient(colors: backgroundGradient), startPoint: .top, endPoint: .bottom)
             .cornerRadius(20, corners: [.topLeft, .topRight]).ignoresSafeArea())
         .shadow(color: Color.white.opacity(0.3), radius: 2, x: 1, y: 0)
     }
     
-    private func switchToTab(tab: EvoTabBarItem) {
-        selection = tab
+    private func switchToTabIfNeeded(tab: EvoTabBarItem) {
+        if !tab.isAction {
+            selection = tab
+        }
+        onTapped?(tab)
     }
 }
