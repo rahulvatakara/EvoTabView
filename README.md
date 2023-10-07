@@ -13,16 +13,16 @@ To provide a clearer understanding of how EvoTabView looks and functions, here a
 
 Images:
 EvoTabView Image Demo
-![EvoTabView Image Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_1.png)
-![EvoTabView Image Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_2.png)
-![EvoTabView Image Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_3.png)
+<img src="https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_1.png" width="350">
+<img src="https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_2.png" width="350">
 
 
 Replace the link above with the actual path to your image file if you're hosting the image elsewhere.
 
 Videos:
 EvoTabView Video Demo
-![EvoTabView Video Demo](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_video.mp4)
+![EvoTabView GIF](https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_video.gif)
+
 
 
 Click the thumbnail above to view the video demonstration. Replace the thumbnail and video link with the actual paths if they are hosted elsewhere.
