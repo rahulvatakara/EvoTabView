@@ -16,7 +16,9 @@ struct ItemListView: View {
                 ForEach(Items, id: \.title) { item in
                     ItemView(item: item)
                 }
-            }.navigationBarTitle(title, displayMode: .large)
+
+            }.listStyle(.grouped)
+                .navigationBarTitle(title, displayMode: .large)
         }
     }
 }

@@ -75,7 +75,7 @@ extension EvoTabContainerView {
         .background(LinearGradient(gradient:
                                     Gradient(colors: backgroundGradient), startPoint: .top, endPoint: .bottom)
             .cornerRadius(20, corners: [.topLeft, .topRight]).ignoresSafeArea())
-        .shadow(color: Color.white.opacity(0.3), radius: 2, x: 1, y: 0)
+        .shadow(color: Color.white.opacity(0.3), radius: 2, x: 1, y: 2)
     }
     
     private func switchToTabIfNeeded(tab: EvoTabBarItem) {

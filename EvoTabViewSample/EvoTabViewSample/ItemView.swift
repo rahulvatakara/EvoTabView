@@ -30,8 +30,8 @@ struct ItemView: View {
             Text(item.description)
                 .font(.body).fontWeight(.light)
                 .foregroundColor(descriptionColor)
+            Divider().background(Color.white).padding(.top, 10)
         }
-        .padding()
     }
 }
 

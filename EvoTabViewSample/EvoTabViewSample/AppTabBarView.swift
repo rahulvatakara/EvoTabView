@@ -15,10 +15,10 @@ import EvoTabView
 
 struct AppTabBarView: View {
     
-    @State private var tabSelection: EvoTabBarItem = EvoTabBarItem.movies
+    @State private var tabSelection: EvoTabBarItem = EvoTabBarItem.books
     
     var body: some View {
-        EvoTabView(selection: $tabSelection, backgroundGradient: [.black, Color(#colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1))],
+        EvoTabView(selection: $tabSelection, backgroundGradient: [.black, .black.opacity(0.6)],
                    onTapped: { tab in
             if tab == .add {
                 // Plus button action
