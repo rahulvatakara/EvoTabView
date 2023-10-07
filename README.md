@@ -12,7 +12,6 @@ DEMO: Visual Representation
 To provide a clearer understanding of how EvoTabView looks and functions, here are visual demonstrations:
 
 Images:
-EvoTabView Image Demo
 <div align="center">
     <img src="https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_video.gif" width="350">
     <img src="https://github.com/rahulvatakara/EvoTabView/blob/main/demo/evotab_image_2.png" width="350">
