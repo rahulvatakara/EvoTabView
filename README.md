@@ -63,8 +63,10 @@ extension EvoTabBarItem {
     }
     static var add: EvoTabBarItem {
         EvoTabBarItem(imageName: "plus",
-                      actionButtonColor: .blue,
-                      isAction: true)
+                title: "",
+                color: .white,
+                actionButtonColor: .blue,
+                isAction: true)
     }
     static var movies: EvoTabBarItem {
         EvoTabBarItem(imageName: "film")
@@ -80,7 +82,7 @@ extension EvoTabBarItem {
 
 ## Contributions
 
-Contributions to this repository are welcome! If you have an interesting SwiftUI UI reference sample to share or would like to enhance an existing sample, feel free to submit a pull request. Please refer to the contribution guidelines for more details.
+Contributions to this repository are welcome! If you have an interesting custom TabView library to share or would like to enhance an existing version, feel free to submit a pull request. Please refer to the contribution guidelines for more details.
 
 ## License
 
